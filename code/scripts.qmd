@@ -1,7 +1,42 @@
 ---
 title: "Day 2 full session"
 format: html
+execute: 
+  warming: FALSE 
 editor: visual
 ---
 
-## 
+## Making & Indexing data in R
+
+### Vectors in R studio, not in physics bro
+
+```{r}
+dogs <- c("Teddy", 'Benjo')
+typeof(dogs)
+class(dogs)
+```
+
+```{r}
+cats <- c(TRUE, 2)
+typeof(cats)
+```
+
+```{r}
+zipcodes <- c(44600, 53200, 93106)
+as.character(zipcodes)
+```
+
+```{r}
+Create a vector with named element
+
+```
+
+```{r}
+dog_food <- c(teddy= "purina", tallie="farmer's dog")
+dog_food[2]
+```
+
+```{r}
+i <- seq(1:3)
+
+```
