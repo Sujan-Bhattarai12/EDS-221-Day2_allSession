@@ -61,3 +61,10 @@ Lists : important to work in matrix multiplication in python
 ```{r}
 urchins <- list("blue", c(2,3,6,7), c("lunch", "dinner", 'dessert'), 5L)
 ```
+
+```{r}
+urchin_list    <- urchins[2]
+urchin_vectors <- urchins[3]
+```
+
+##Dataframe
