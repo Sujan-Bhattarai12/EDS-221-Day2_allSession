@@ -68,3 +68,16 @@ urchin_vectors <- urchins[3]
 ```
 
 ##Dataframe
+
+```{r}
+data <- data.frame(
+  Name = c("Alice", "Bob", "Charlie", "David", "Eve"),
+  Age = c(25, 30, 28, 22, 27),
+  Score = c(85, 92, 78, 88, 90)
+)
+
+data[[1]]
+data[1]
+data[2,3]
+data$Name[[3]]
+```
