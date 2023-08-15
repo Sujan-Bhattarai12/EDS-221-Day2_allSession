@@ -55,3 +55,29 @@ matrix[2:1, ]
 ```
 
 ## I need to make some changes to test branch
+
+Lists : important to work in matrix multiplication in python
+
+```{r}
+urchins <- list("blue", c(2,3,6,7), c("lunch", "dinner", 'dessert'), 5L)
+```
+
+```{r}
+urchin_list    <- urchins[2]
+urchin_vectors <- urchins[3]
+```
+
+##Dataframe
+
+```{r}
+data <- data.frame(
+  Name = c("Alice", "Bob", "Charlie", "David", "Eve"),
+  Age = c(25, 30, 28, 22, 27),
+  Score = c(85, 92, 78, 88, 90)
+)
+
+data[[1]]
+data[1]
+data[2,3]
+data$Name[[3]]
+```
