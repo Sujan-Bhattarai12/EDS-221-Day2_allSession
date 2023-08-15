@@ -55,3 +55,9 @@ matrix[2:1, ]
 ```
 
 ## I need to make some changes to test branch
+
+Lists : important to work in matrix multiplication in python
+
+```{r}
+urchins <- list("blue", c(2,3,6,7), c("lunch", "dinner", 'dessert'), 5L)
+```
